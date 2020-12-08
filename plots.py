@@ -5,7 +5,6 @@ def plot_train_val(m_train, m_val, period=25, al_param=False, metric='IoU'):
     
     plt.title('Evolution of the '+metric+ ' with respect to the number of epochs',fontsize=14)
     
-    
     if al_param:
         al_steps = np.array(  range( 1, int(len(m_train)*period/al_param +1) )  ) *al_param
         for al_step in al_steps:
