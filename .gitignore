@@ -132,3 +132,4 @@ dmypy.json
 **/data
 model/best_model02122020.pt
 *.pt
+*.png
