@@ -1,6 +1,0 @@
-{
-    "jupyter.jupyterServerType": "local",
-    "files.watcherExclude": {
-        "**/target": true
-    }
-}
